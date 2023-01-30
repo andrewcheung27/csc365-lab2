@@ -11,7 +11,7 @@ def main():
                 for line in cleanup_file:
                     if line.startswith("DROP TABLE"):
                         test_file.write("SELECT * FROM " +
-                                        line[11:] + "\n\n")
+                                        line[11:])
                         test_file.write("SELECT COUNT(*) FROM " +
                                         line[11:] + "\n\n")
 
