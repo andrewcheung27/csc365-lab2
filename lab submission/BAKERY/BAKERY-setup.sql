@@ -2,8 +2,7 @@ CREATE TABLE Goods(
 Id VARCHAR(20) PRIMARY KEY,
 Flavor VARCHAR(20),
 Food VARCHAR(20),
-Price DECIMAL(5, 2),
-UNIQUE(Flavor, Food)
+Price DECIMAL(5, 2)
 );
 
 

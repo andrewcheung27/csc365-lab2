@@ -3,8 +3,7 @@ City VARCHAR(30),
 AirportCode CHAR(3) PRIMARY KEY,
 AirportName VARCHAR(50),
 Country VARCHAR(20),
-CountryAbbrev VARCHAR(10),
-UNIQUE(Country, City, AirportName)
+CountryAbbrev VARCHAR(10)
 );
 
 
