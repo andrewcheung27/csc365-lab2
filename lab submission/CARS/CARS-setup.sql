@@ -9,7 +9,8 @@ Country INT
 CREATE TABLE CarNames(
 Id INT PRIMARY KEY,
 Model VARCHAR(20),
-Make VARCHAR(40)
+Make VARCHAR(40),
+UNIQUE(Model)
 );
 
 
