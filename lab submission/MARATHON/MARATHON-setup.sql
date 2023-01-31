@@ -10,5 +10,6 @@ BIBNumber INT,
 FirstName VARCHAR(20),
 LastName VARCHAR(20),
 Town VARCHAR(20),
-State CHAR(2)
+State CHAR(2),
+UNIQUE(MarathonGroup, Sex, GroupPlace)
 );

@@ -1,15 +1,42 @@
+CREATE TABLE Continents(
+ContId INT PRIMARY KEY,
+Continent VARCHAR(20),
+UNIQUE(Continent)
+);
+
+
+CREATE TABLE Countries(
+CountryId INT PRIMARY KEY,
+CountryName VARCHAR(20),
+Continent INT,
+FOREIGN KEY(Continent) REFERENCES Continents(ContId),
+UNIQUE(CountryName, Continent)
+);
+
+
 CREATE TABLE CarMakers(
 Id INT PRIMARY KEY,
 Maker VARCHAR(20),
 FullName VARCHAR(30),
-Country INT
+Country INT,
+FOREIGN KEY(Country) REFERENCES Countries(CountryId)
+);
+
+
+CREATE TABLE ModelList(
+ModelId INT PRIMARY KEY,
+Maker INT,
+Model VARCHAR(20),
+FOREIGN KEY(Maker) REFERENCES CarMakers(Id),
+UNIQUE(Model)
 );
 
 
 CREATE TABLE CarNames(
 Id INT PRIMARY KEY,
 Model VARCHAR(20),
-Make VARCHAR(40)
+Make VARCHAR(40),
+FOREIGN KEY(Model) REFERENCES ModelList(Model)
 );
 
 
@@ -21,46 +48,6 @@ Edispl INT,
 Horsepower INT,
 Weight INT,
 Accelerate DECIMAL(4, 1),
-CarYear YEAR
+CarYear YEAR,
+FOREIGN KEY(Id) REFERENCES CarNames(Id)
 );
-
-
-CREATE TABLE Continents(
-ContId INT PRIMARY KEY,
-Continent VARCHAR(20)
-);
-
-
-CREATE TABLE Countries(
-CountryId INT PRIMARY KEY,
-CountryName VARCHAR(20),
-Continent INT
-);
-
-
-CREATE TABLE ModelList(
-ModelId INT PRIMARY KEY,
-Maker INT,
-Model VARCHAR(20),
-UNIQUE(Model)
-);
-
-
-ALTER TABLE CarMakers
-ADD FOREIGN KEY(Country) REFERENCES Countries(CountryId);
-
-
-ALTER TABLE CarNames
-ADD FOREIGN KEY(Model) REFERENCES ModelList(Model);
-
-
-ALTER TABLE CarsData
-ADD FOREIGN KEY(Id) REFERENCES CarNames(Id);
-
-
-ALTER TABLE Countries
-ADD FOREIGN KEY(Continent) REFERENCES Continents(ContId);
-
-
-ALTER TABLE ModelList
-ADD FOREIGN KEY(Maker) REFERENCES CarMakers(Id);
