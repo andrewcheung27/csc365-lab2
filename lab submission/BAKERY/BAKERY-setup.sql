@@ -6,7 +6,7 @@ FirstName VARCHAR(20)
 
 
 CREATE TABLE Goods(
-Id VARCHAR(128) PRIMARY KEY,
+Id VARCHAR(20) PRIMARY KEY,
 Flavor VARCHAR(20),
 Food VARCHAR(20),
 Price DECIMAL(5, 2)
@@ -24,7 +24,7 @@ PRIMARY KEY(Item, Receipt, Ordinal)
 CREATE TABLE Receipts(
 ReceiptNumber INT PRIMARY KEY,
 ReceiptDate DATE,
-CustomerId INT NOT NULL
+CustomerId INT
 );
 
 
