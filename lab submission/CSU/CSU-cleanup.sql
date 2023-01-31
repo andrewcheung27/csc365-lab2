@@ -1,9 +1,7 @@
-SET FOREIGN_KEY_CHECKS = 0;
-DROP TABLE Campuses;
 DROP TABLE CsuFees;
-DROP TABLE Degrees;
-DROP TABLE DisciplineEnrollments;
-DROP TABLE Disciplines;
-DROP TABLE Enrollments;
 DROP TABLE Faculty;
-SET FOREIGN_KEY_CHECKS = 1;
+DROP TABLE Enrollments;
+DROP TABLE DisciplineEnrollments;
+DROP TABLE Degrees;
+DROP TABLE Disciplines;
+DROP TABLE Campuses;

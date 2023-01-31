@@ -1,9 +1,7 @@
-SET FOREIGN_KEY_CHECKS = 0;
-DROP TABLE Albums;
-DROP TABLE Band;
-DROP TABLE Instruments;
-DROP TABLE Performance;
-DROP TABLE Songs;
-DROP TABLE Tracklists;
 DROP TABLE Vocals;
-SET FOREIGN_KEY_CHECKS = 1;
+DROP TABLE Performance;
+DROP TABLE Instruments;
+DROP TABLE Tracklists;
+DROP TABLE Albums;
+DROP TABLE Songs;
+DROP TABLE Band;
