@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 INSERT INTO Wine
 VALUES(1, 'Zinfandel', 'Robert Biale', 'St. Helena', 'Old Kraft Vineyard', 2008, 44, 93, 275.0);
 

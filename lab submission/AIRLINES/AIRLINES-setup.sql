@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 CREATE TABLE Airports100(
 City VARCHAR(30),
 AirportCode CHAR(3) PRIMARY KEY,

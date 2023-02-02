@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 INSERT INTO Airlines
 VALUES(1, 'United Airlines', 'UAL', 'USA');
 

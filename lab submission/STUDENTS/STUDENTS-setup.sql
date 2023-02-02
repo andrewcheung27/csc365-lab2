@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 CREATE TABLE Teachers(
 LastName VARCHAR(20),
 FirstName VARCHAR(20),

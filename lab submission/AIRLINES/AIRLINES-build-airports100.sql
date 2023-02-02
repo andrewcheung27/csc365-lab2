@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 INSERT INTO Airports100
 VALUES('Aberdeen ', 'APG', 'Phillips AAF ', 'United States ', 'US ');
 

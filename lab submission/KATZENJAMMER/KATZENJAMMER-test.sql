@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 SELECT * FROM Vocals;
 SELECT COUNT(*) FROM Vocals;
 

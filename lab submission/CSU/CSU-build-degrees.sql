@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 INSERT INTO Degrees
 VALUES(1990, 1, 701);
 

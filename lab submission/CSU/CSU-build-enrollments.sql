@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 INSERT INTO Enrollments
 VALUES(1, 1956, 384, 123);
 

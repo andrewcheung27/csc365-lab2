@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 CREATE TABLE Marathon(
 Place INT PRIMARY KEY,
 MarathonTime TIME,

@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 INSERT INTO Teachers
 VALUES('MACROSTIE',  'MIN', 101);
 

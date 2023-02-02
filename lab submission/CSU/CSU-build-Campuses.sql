@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 INSERT INTO Campuses
 VALUES(1, 'California State University-Bakersfield', 'Bakersfield', 'Kern', 1965);
 

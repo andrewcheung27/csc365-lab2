@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 CREATE TABLE Rooms(
 RoomId VARCHAR(3) PRIMARY KEY,
 roomName VARCHAR(30),

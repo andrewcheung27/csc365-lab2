@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 INSERT INTO CarMakers
 VALUES(1, 'amc', 'American Motor Company', 1.0);
 

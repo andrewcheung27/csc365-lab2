@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 INSERT INTO CarsData
 VALUES(1, 18.0, 8, 307.0, 130.0, 3504, 12.0, 1970);
 

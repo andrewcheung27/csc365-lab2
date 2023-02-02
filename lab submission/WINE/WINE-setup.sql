@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 CREATE TABLE Grapes(
 ID INT,
 Grape VARCHAR(30) PRIMARY KEY,

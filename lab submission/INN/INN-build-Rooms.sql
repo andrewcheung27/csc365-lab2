@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 INSERT INTO Rooms
 VALUES('RND', 'Recluse and defiance', 1, 'King', 2, 150, 'modern');
 

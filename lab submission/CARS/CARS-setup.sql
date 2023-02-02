@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 CREATE TABLE Continents(
 ContId INT PRIMARY KEY,
 Continent VARCHAR(20),

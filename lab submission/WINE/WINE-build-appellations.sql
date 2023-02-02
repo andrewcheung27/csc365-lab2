@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 INSERT INTO Appellations
 VALUES(1, 'Alexander Valley', 'Sonoma', 'California', 'North Coast', 'Yes');
 

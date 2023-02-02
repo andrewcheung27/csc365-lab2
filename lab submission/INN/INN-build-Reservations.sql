@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 INSERT INTO Reservations
 VALUES(47496, 'RND', '2010-01-01', '2010-01-06', 150.0, 'KLEVER', 'ERASMO', 1, 0);
 

@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 INSERT INTO Marathon
 VALUES(1, '01:09:47', '00:05:20', 1, '20-39', 37, 'M', 340, 'ANDRE',  'PELLAM',  'HALIFAX', 'MA');
 

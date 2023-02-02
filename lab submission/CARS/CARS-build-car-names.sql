@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 INSERT INTO CarNames
 VALUES(1, 'chevrolet', 'chevrolet chevelle malibu');
 

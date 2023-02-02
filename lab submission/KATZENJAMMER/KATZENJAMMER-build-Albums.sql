@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 INSERT INTO Albums
 VALUES(1, 'Le Pop', 2008, 'Propeller Recordings', 'Studio');
 

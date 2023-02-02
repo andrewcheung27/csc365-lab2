@@ -1,3 +1,7 @@
+/* Author: Andrew Cheung */
+/* Email: acheun29@calpoly.edu */
+
+
 INSERT INTO Goods
 VALUES('20-BC-C-10', 'Chocolate', 'Cake', 8.95);
 
